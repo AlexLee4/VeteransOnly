@@ -11,7 +11,7 @@ def deposit(self):
     print("Amount Deposited: ",amount)
 
 def withdraw(self):
-    amount = float(input("Enter the amount you wish to withdrawal: ")
+    amount = float(input("Enter the amount you wish to withdrawal: "))
     if self.balance>=amount:
         self.balance-=amount
         print("You withdraw: ",amount)
