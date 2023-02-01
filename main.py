@@ -18,8 +18,8 @@ def withdraw(self):
     else:
         print("Insufficient balance")
 
-def display(self)
-print("Net Available Balance=", self.balance)
+def display(self):
+    print("Net Available Balance=", self.balance)
 
 s = Bank_Account()
 
