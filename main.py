@@ -1,7 +1,7 @@
 print("Welcome to the bank")
 print("Here you can deposit and withdrawal")
 
-class Bank_Account:
+class ATM:
     def __init__(self):
         self.balance=0
         
@@ -21,7 +21,7 @@ class Bank_Account:
     def display(self):
         print("Net Available Balance=", self.balance)
 
-s = Bank_Account()
+s = ATM()
 
 s.deposit()
 s.withdraw()
